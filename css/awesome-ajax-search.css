@@ -1,0 +1,38 @@
+.ui-helper-hidden-accessible {
+	font-size: 0;
+	line-height: 0;
+	color: transparent;
+	overflow:hidden;
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+.ui-autocomplete {
+	display: block !important;
+	list-style: none;
+	z-index: 10000;
+	background: white;
+	padding: .3em;
+	border: 1px solid silver;
+} 
+.ui-autocomplete li a { color: inherit;}
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+.ui-autocomplete-input{
+	position: relative;
+}
+
+.ui-menu-item {
+	padding-bottom: .33em;
+	border-bottom: 1px dotted rgba(56,56,56,.15);
+	margin: 0 0 .33em 0;
+}
+.ui-menu-item:hover,
+.ui-menu-item:focus {
+	background: #aab;
+	cursor: pointer;
+}
